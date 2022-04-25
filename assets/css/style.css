@@ -1,0 +1,23 @@
+.image {
+    width: 500px;
+    height: 700px;
+}
+
+body {
+    background: url("../../assets/images/background-color.jpg");
+}
+
+
+@font-face {
+    font-family: "IBMPlexSansArabic";
+    src: url(../fonts/IBMPlexSansArabic-Light.ttf);
+}
+
+
+#myCanvas{
+    font-family: "IBMPlexSansArabic";
+}
+
+body{
+    font-family: "IBMPlexSansArabic";
+}
