@@ -16,6 +16,7 @@ body {
 
 #myCanvas{
     font-family: "IBMPlexSansArabic";
+    max-height: 800px;
 }
 
 
