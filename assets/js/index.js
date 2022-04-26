@@ -42,7 +42,7 @@ downloadCardButton.addEventListener('click', function(e){
 
     // center and make text
     textWidth = (imageWidth - imageWidth / 2)
-    textHeight = (imageHeight - 190)
+    textHeight = (imageHeight - 280)
     
     context.fillText(text, textWidth, textHeight);
 
@@ -50,7 +50,7 @@ downloadCardButton.addEventListener('click', function(e){
     document.getElementById('name').value = "";
 
     // download the image
-    DownloadCanvasAsImage();
+    // DownloadCanvasAsImage();
 });
 
 
