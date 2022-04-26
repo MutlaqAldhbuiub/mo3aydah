@@ -50,7 +50,7 @@ downloadCardButton.addEventListener('click', function(e){
     document.getElementById('name').value = "";
 
     // download the image
-    // DownloadCanvasAsImage();
+    DownloadCanvasAsImage();
 });
 
 
