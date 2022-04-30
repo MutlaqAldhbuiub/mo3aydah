@@ -14,8 +14,14 @@ body {
 }
 
 
+@font-face {
+    font-family: "GESSTwoLight";
+    src: url(../fonts/GESSTwoLight.otf);
+}
+
+
 #myCanvas{
-    font-family: "IBMPlexSansArabic";
+    font-family: "GESSTwoLight";
     max-height: 800px;
 }
 
@@ -32,5 +38,5 @@ canvas {
 }
 
 body{
-    font-family: "IBMPlexSansArabic";
+    font-family: "GESSTwoLight";
 }
