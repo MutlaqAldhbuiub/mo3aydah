@@ -1,0 +1,53 @@
+.image {
+    width: 500px;
+    height: 700px;
+}
+
+body {
+    background: url("../../assets/images/background-color.jpg");
+}
+
+
+@font-face {
+    font-family: "iwan";
+    src: url(../fonts/iwanzazapersonal-Regular.otf);
+}
+
+
+@font-face {
+    font-family: "IBMPlexSansArabic";
+    src: url(../fonts/IBMPlexSansArabic-Light.ttf);
+}
+
+
+@font-face {
+    font-family: "GESSTwoLight";
+    src: url(../fonts/GESSTwoLight.otf);
+}
+
+
+#myCanvas{
+    font-family: "iwan";
+    max-height: 800px;
+}
+
+
+.container {
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+canvas {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+body{
+    font-family: "iwan";
+}
+
+input{
+    padding:5px;
+    font-family:'GESSTwoLight';    
+  }
